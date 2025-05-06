@@ -10,5 +10,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     SPARQL
-    
-
+URL: https://github.com/juan-mulero/RBioGateway
+BugReports: https://github.com/juan-mulero/RBioGateway/issues
