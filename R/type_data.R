@@ -15,7 +15,7 @@
 
 type_data <- function(instance) {
   # Endpoint SPARQL
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   query <- sprintf( #Search by preferred label (prefLabel)
     "

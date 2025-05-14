@@ -15,7 +15,7 @@
 
 getTAD_add_info <- function(tad) {
   # SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Build SPARQL query
   query <- sprintf(

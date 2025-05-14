@@ -18,7 +18,7 @@
 
 getGenes_by_coord <- function(chr, start, end, strand = NULL) {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Translate chromosome name to NCBI ID
   chr_ncbi <- translate_chr(chr)

@@ -17,7 +17,7 @@
 
 getCRMs_by_coord <- function(chromosome, start, end) {
   # Endpoint SPARQL
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Obtain the ID of the chromosome
   chromosome_ncbi <- translate_chr(chromosome)

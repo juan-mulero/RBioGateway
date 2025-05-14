@@ -16,7 +16,7 @@
 
 gene2prot <- function(gene, taxon = NULL) {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Case when taxon is NULL
   if (is.null(taxon)) {

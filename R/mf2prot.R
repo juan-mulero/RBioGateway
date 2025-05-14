@@ -17,7 +17,7 @@
 
 mf2prot <- function(molecular_function, taxon = NULL, sources = FALSE) {
   # Endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Check sources and invariable parts of the queries
   select <- ifelse(sources,

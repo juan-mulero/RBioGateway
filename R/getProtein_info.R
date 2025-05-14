@@ -16,7 +16,7 @@
 
 getProtein_info <- function(protein, sources = T) {
   # Endpoint SPARQL
-  sparql_endpoint <- "https://2407.biogateway.eu/sparql"
+  sparql_endpoint <- "https://semantics.inf.um.es/biogateway"
 
   # Query building
   if (sources == T) {

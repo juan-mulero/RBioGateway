@@ -16,7 +16,7 @@
 
 prot_regulates <- function(protein, regulation_type = "all") {
   # Endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Prefixes
   prefixes <- "

@@ -16,7 +16,7 @@
 
 gene2tfac <- function(gene, regulation_type = "all") {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Prefixes
   prefixes <- "

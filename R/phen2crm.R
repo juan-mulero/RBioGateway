@@ -15,7 +15,7 @@
 
 phen2crm <- function(phenotype) {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # SPARQL prefixes used in the query
   prefixes <- "

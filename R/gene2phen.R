@@ -15,7 +15,7 @@
 
 gene2phen <- function(gene) {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Build the SPARQL query
   query <- sprintf(

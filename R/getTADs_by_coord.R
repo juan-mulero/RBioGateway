@@ -17,7 +17,7 @@
 
 getTADs_by_coord <- function(chromosome, start, end) {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Translate the chromosome name
   chromosome_ncbi <- translate_chr(chromosome)

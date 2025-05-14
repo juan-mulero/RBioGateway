@@ -16,7 +16,7 @@
 
 getGene_info <- function(gene, taxon) {
   # SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Check if taxon is numeric or a name
   if (suppressWarnings(!is.na(as.numeric(taxon)))) {

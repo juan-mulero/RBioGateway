@@ -17,7 +17,7 @@
 
 prot2bp <- function(protein, taxon = "Homo sapiens", sources = F){
   #Endpoint
-  endpoint_sparql = "https://2407.biogateway.eu/sparql"
+  endpoint_sparql = "https://semantics.inf.um.es/biogateway"
 
   #Check sources and invariable parts of the queries
   select = ifelse(sources, "?bp ?bp_id ?relation_label ?database ?articles", "?bp ?bp_id")

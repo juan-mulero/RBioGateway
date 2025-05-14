@@ -15,7 +15,7 @@
 
 prot2gene <- function(protein) {
   # Define the SPARQL endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Build the initial SPARQL query
   query <- sprintf(

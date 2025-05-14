@@ -17,7 +17,7 @@
 
 bp2prot <- function(biological_process, taxon = NULL, sources = FALSE) {
   # Endpoint
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Check sources and invariable parts of the queries
   select <- ifelse(sources, "?protein_name ?relation_label ?database ?articles", "?protein_name")

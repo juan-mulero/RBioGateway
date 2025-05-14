@@ -15,7 +15,7 @@
 
 prot2ortho <- function(protein) {
   # Endpoint SPARQL
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Define the prefixes and common parts of the query
   prefixes <-

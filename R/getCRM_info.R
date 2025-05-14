@@ -15,7 +15,7 @@
 
 getCRM_info <- function(crm) {
   # Endpoint SPARQL
-  endpoint_sparql <- "https://2407.biogateway.eu/sparql"
+  endpoint_sparql <- "https://semantics.inf.um.es/biogateway"
 
   # Query building
   query <- sprintf(
